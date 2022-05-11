@@ -1,0 +1,96 @@
+body {
+  box-sizing: border-box;
+  background-image: url(Trstena-sunset.jpg);
+  background-size: cover;
+  opacity: 1;
+  background-attachment: fixed;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  color: #15b7b9;
+}
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #15b7b9;
+  font-size: 20px;
+  padding: 20px;
+  font-family: "Indie Flower";
+}
+.navibar {
+  background-color: #635759;
+  line-height: 40px;
+}
+.logo {
+  margin: 30px;
+  position: relative;
+}
+main {
+  display: flex;
+}
+.m-contact {
+  display: -webkit-inline-box;
+}
+h1 {
+  font-family: "Indie Flower";
+
+  font-size: 100px;
+  margin: 20px;
+}
+h3 {
+  font-family: "Indie Flower";
+
+  font-size: 40px;
+  margin: 20px;
+}
+p {
+  font-family: "Indie Flower";
+
+  font-size: 20px;
+  letter-spacing: 0.2rem;
+}
+h1,
+h3,
+p {
+  color: #635759;
+}
+.contact-list p {
+  color: #15b7b9;
+}
+.contact-list {
+  background-color: #635759;
+  margin: 30px;
+  border-radius: 10px;
+}
+.whatsapp-logo {
+  width: 64px;
+}
+.form {
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+.textarea {
+    padding: 10px;
+  height: 150px;
+  width: 350px;
+}
+
+.p-contact {
+  margin: 10px;
+}
+.contact-text {
+  padding: 20px;
+}
+textarea {
+  font-size: 20px;
+  margin: 4px;
+}
+input{
+    padding: 10px;
+    margin: 4px;
+}
+button{
+    margin: 4px;
+}
