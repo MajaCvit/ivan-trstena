@@ -6,7 +6,7 @@ body {
   background-attachment: fixed;
   margin: 0;
 }
-header {
+nav {
   display: flex;
   justify-content: space-around;
   color: #15b7b9;
@@ -22,16 +22,26 @@ a {
 .navibar {
   background-color: #635759;
   line-height: 40px;
+  opacity: 0.9;
 }
 .logo {
   margin: 30px;
-  position: relative;
+  position: sticky;
+  width: 500px;
+  height: 500px;
+}
+.logo1 {
+  position: sticky;
 }
 main {
   display: flex;
 }
+.text {
+  position: relative;
+}
 .m-contact {
   display: -webkit-inline-box;
+
 }
 h1 {
   font-family: "Indie Flower";
@@ -63,6 +73,7 @@ p {
   background-color: #635759;
   margin: 30px;
   border-radius: 10px;
+  opacity: 0.9;
 }
 .whatsapp-logo {
   width: 64px;
@@ -70,11 +81,19 @@ p {
 .form {
   padding-left: 30px;
   padding-bottom: 10px;
+  font-family: "Indie Flower";
+  letter-spacing: 0.2rem;
 }
 .textarea {
-    padding: 10px;
+  letter-spacing: 0.2rem;
+  padding: 10px;
   height: 150px;
   width: 350px;
+}
+input{
+  font-family: "Indie Flower";
+  letter-spacing: 0.2rem;
+  font-size: 20px;
 }
 
 .p-contact {
@@ -86,11 +105,41 @@ p {
 textarea {
   font-size: 20px;
   margin: 4px;
+  font-family: "Indie Flower";
+  background-color: #eacebc;
+
 }
-input{
+input {
+  padding: 10px;
+  margin: 4px;
+  background-color: #eacebc;
+}
+button {
+  margin: 4px;
+  font-family: "Indie Flower";
+  letter-spacing: 0.2rem;
+  font-size: 20px;
+  background-color: #15b7b9;
+  border-radius: 20px;
+  border: #635759;
+  color: #635759;
+}
+.foot{
+    background-color: #635759;
+    color: #15b7b9;
+    font-size: 20px;
+    margin: 0;
+    float: inline-end;
+}
+footer{
+    background-color: #635759;
+    height: 30px;
+    font-size: 20px;
+    letter-spacing: 0.2rem;
     padding: 10px;
-    margin: 4px;
+
 }
-button{
-    margin: 4px;
-}
+ footer p{
+     font-size: 30px;
+ }   
+
