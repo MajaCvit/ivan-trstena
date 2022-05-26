@@ -6,23 +6,47 @@ body {
   background-attachment: fixed;
   margin: 0;
 }
-nav {
-  display: flex;
-  justify-content: space-around;
-  color: #15b7b9;
-}
+
 a {
   text-transform: uppercase;
   text-decoration: none;
   color: #15b7b9;
-  font-size: 20px;
-  padding: 20px;
+ 
+  
   font-family: "Indie Flower";
 }
-.navibar {
+.navbar-nav{
+  justify-content: space-around;
+   
+}
+
+.navbar{
   background-color: #635759;
-  line-height: 40px;
-  opacity: 0.9;
+  justify-items: space-around;
+  
+}
+.navbar:active{
+  border-color: #635759;
+}
+.navbar:hover {
+  color: blue;
+}
+.nav-link{
+  color: #15b7b9;
+  font-size: 1.5rem;
+  padding: 0 3rem;
+  
+}
+.navbar-toggler{
+  background-color: #15b7b9;
+  
+}
+.navbar-toggler-icon{
+  background-color: #15b7b9;
+  border-color: #15b7b9;
+}
+.navbar:active {
+  border: #635759;
 }
 .logo {
   margin: 30px;
@@ -130,16 +154,31 @@ button {
     font-size: 20px;
     margin: 0;
     float: inline-end;
-}
-footer{
-    background-color: #635759;
-    height: 30px;
-    font-size: 20px;
     letter-spacing: 0.2rem;
-    padding: 10px;
+width: auto;
 
-}
- footer p{
-     font-size: 30px;
+ 
  }   
-
+.photo-container{
+  margin: 30px;
+  height: auto;
+  width: auto;
+}
+.photo{
+  border: solid 4px #15b7b9;
+  width: 200px;
+  height: 200px;
+}
+.map-container{
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+ 
+}
+.map-container{
+   border: solid 4px #15b7b9;
+}
+.location-description{
+  margin: 20px;
+  padding: 25px;
+}
