@@ -48,15 +48,13 @@ a {
 .navbar:active {
   border: #635759;
 }
-.logo {
-  margin: 30px;
+.logo1 {
+  margin: 60px;
   position: sticky;
   width: 500px;
   height: 500px;
 }
-.logo1 {
-  position: sticky;
-}
+
 main {
   display: flex;
 }
@@ -147,38 +145,22 @@ button {
   border-radius: 20px;
   border: #635759;
   color: #635759;
-}
-.foot{
-    background-color: #635759;
-    color: #15b7b9;
-    font-size: 20px;
-    margin: 0;
-    float: inline-end;
-    letter-spacing: 0.2rem;
-width: auto;
-
- 
- }   
-.photo-container{
-  margin: 30px;
-  height: auto;
-  width: auto;
-}
-.photo{
-  border: solid 4px #15b7b9;
-  width: 200px;
-  height: 200px;
-}
+ }
 .map-container{
   float: right;
   margin-top: 20px;
   margin-right: 50px;
- 
 }
 .map-container{
    border: solid 4px #15b7b9;
 }
 .location-description{
-  margin: 20px;
+  margin: 30px;
   padding: 25px;
+
+}
+#gallery-carousel{
+  
+    text-align: center;
+    margin: 3% 13%;
 }
