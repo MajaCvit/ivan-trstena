@@ -1,0 +1,131 @@
+/* General */
+body {
+    padding: 0;
+  box-sizing: border-box;
+  margin: 0px;
+}
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #15b7b9;
+  font-family: "Indie Flower";
+}
+/* Navigation bar */
+.navbar-nav {
+  justify-content: space-around;
+}
+.navbar {
+  margin: 0;
+  background-color: #7f6c6c;
+  justify-items: flex-end;
+}
+.navbar:active {
+  border-color: #635759;
+}
+.nav-link {
+  color: #15b7b9;
+  font-size: 1.5rem;
+  padding: 0 3rem;
+}
+.navbar-toggler {
+  background-color: #15b7b9;
+}
+.navbar-toggler-icon {
+  background-color: #15b7b9;
+  border-color: #15b7b9;
+}
+.navbar:active {
+  border: #635759;
+}
+/* Title */
+.title {
+  padding: 3% 7% 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(Trstena-sunset.jpg);
+  font-family: "Indie Flower";
+  color: #15b7b9;
+  }
+h1 {
+  font-size: 7rem;
+  padding: 7px 30px;
+}
+h3 {
+  padding: 7px 45px;
+}
+@media (max-width: 624px ){
+    h3{
+        padding: 0px 0 0 84px;}
+        h1{
+            font-size: 3rem;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+@media (max-width: 1186px ){
+    h1{
+        padding: 4px;
+        font-size: 5rem;}
+    }
+@media (max-width: 1186px ){
+    
+    .logo{
+    width: 300px;
+    height: 300px;
+}
+}
+/* About */
+.about {
+  background-color: #7f6c6c;
+  padding: 5% 7%;
+  color: #fcc79f;
+}
+.about-p {
+  font-size: 1.5rem;
+  font-family: "Indie Flower";
+  }
+.info-p {
+  font-family: "Indie Flower";
+  font-size: 20px;
+  padding-top: 20px;
+}
+.fa-solid{
+    padding: 15px;
+}
+/* Location and contact */
+.location1contact{
+  color: #fcc79f;
+  background-color:#7f6c6c;
+  padding: 3% 7%;
+
+}
+.btn{
+    color: #635759;
+    background-color: #fcc79f;
+}
+.btn:hover{
+    background-color: #15b7b9;
+}
+a:hover{
+    color: #fcc79f;
+}
+a.nav-link:hover{
+    color:#fcc79f;
+}
+/* Coarousel */
+.photo{
+    height: 300px;
+    width: 100px;
+    padding: 5%;
+}
+#photos{
+    background-color: #7f6c6c;
+}
+.gallery{
+    text-align: center;
+    background-color:#7f6c6c;
+    padding: 3% 7%;
+}
+.hr-gallery{
+    padding-top: -30px;}
